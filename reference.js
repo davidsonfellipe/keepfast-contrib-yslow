@@ -3,11 +3,21 @@ module.exports = {
   'sensors': {
     'score': {
       'label': 'YSlow Score',
-      'all': 90
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '90',
+        'condition': '<',
+        'result': true
+      }]
     },
     'loadTime': {
       'label': 'Page load time',
-      'all': 4000
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '4000',
+        'condition': '<',
+        'result': true
+      }]
     }
   }
 };
