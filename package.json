@@ -1,6 +1,6 @@
 {
   "name": "keepfast-contrib-yslow",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin for keepfast support yslow",
   "main": "index.js",
   "scripts": {
