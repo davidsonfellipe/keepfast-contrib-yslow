@@ -1,0 +1,29 @@
+{
+  "name": "keepfast-contrib-yslow",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keepfast/keepfast-contrib-yslow.git"
+  },
+  "keywords": [
+    "keepfast",
+    "yslow",
+    "wpo",
+    "mensure"
+  ],
+  "author": "Davidson Fellipe <davidsonfellipe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keepfast/keepfast-contrib-yslow/issues"
+  },
+  "homepage": "https://github.com/keepfast/keepfast-contrib-yslow#readme",
+  "dependencies": {
+    "bluebird": "^3.2.1",
+    "yslowjs": "^0.3.2"
+  }
+}
