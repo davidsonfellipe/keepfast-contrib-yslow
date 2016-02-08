@@ -6,8 +6,9 @@ module.exports = {
       'criteria': [{
         'plataform': 'all',
         'expected': '90',
-        'condition': '<',
-        'result': true
+        'condition': '>',
+        'result': true,
+        'unit': ''
       }]
     },
     'loadTime': {
@@ -16,7 +17,8 @@ module.exports = {
         'plataform': 'all',
         'expected': '4000',
         'condition': '<',
-        'result': true
+        'result': true,
+        'unit': 'ms'
       }]
     }
   }
