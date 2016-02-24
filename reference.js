@@ -4,7 +4,7 @@ module.exports = {
     'score': {
       'label': 'YSlow Score',
       'criteria': [{
-        'plataform': 'all',
+        'platform': 'all',
         'expected': '90',
         'condition': '>',
         'result': true,
@@ -14,7 +14,7 @@ module.exports = {
     'loadTime': {
       'label': 'Page load time',
       'criteria': [{
-        'plataform': 'all',
+        'platform': 'all',
         'expected': '4000',
         'condition': '<',
         'result': true,
